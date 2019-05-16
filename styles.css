@@ -1,0 +1,64 @@
+body{
+	text-align: center;
+	background: #2C3A47;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.make {
+  margin: 10px 0;
+  display: block;
+}
+
+#real-one {
+  border: 1px solid pink;
+  width: 1000px;
+  height: 500px;
+  user-select: none;
+}
+#mojies canvas {
+  width: 128px;
+  height: 128px;
+  /*display: none;*/
+}
+input {
+  font-size: 36px;
+}
+
+/* clock */
+
+
+h1{
+  color: #fff;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
